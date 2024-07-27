@@ -71,3 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => showSlides(slideshowId, slideIndex), 2000); // Change image every 2 seconds
   }
 });
+document.getElementById("our-services").addEventListener("click",() =>{
+  window.location.href = "/services.html";
+
+})
+document.getElementById("button2-services").addEventListener("click",() =>{
+  window.location.href = "/about.html";
+
+})
