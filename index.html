@@ -1,87 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="/src/styles/home.css">
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <!-- <link rel="stylesheet" href="./src/styles/home.css" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+  />
   </head>
-  <!-- <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body> -->
   <body>
-    <header class="header"> 
-        <div class="logo-header">
-            <h1>MPP</h1>
-        </div>
-        <nav class="header-right">
-            <ul>
-                <li id="Home">Home</li>
-                <li id="About">About</li>
-                <li id="Services">Services</li>
-                <li id="Projects">Projects</li>
-                <li id="Contacts">Contact</li>
-            </ul>
-        </nav>
+    <header class="header">
+      <div class="logo-header">
+        <h1>MPP</h1>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li id="Home">Home</li>
+          <li id="About">About</li>
+          <li id="Services">Services</li>
+          <li id="Projects">Projects</li>
+          <li id="Contacts">Contact</li>
+        </ul>
+      </nav>
     </header>
-    
+
     <main class="main-content">
-      
-
-        <div class="container">
-            <div class="grid-item item1">
-              <h3 class="et_pb_module_heading">"Precision, Performance, Perfection: Our Design Philosophy"</h3>
-              <p>
-                We provide design solutions for a wide range of industries, including but not limited to oil and gas, petrochemical, manufacturing, chemical, water and wastewater management, and many other sectors.
-
-              </p>
-              <button class="button-services" id="our-services">
-                Our services
-              </button>
-             
-            </div>
-            <div class="grid-item item2">
-                <div class="slideshow-container" id="slideshow1">
-                    <div class="mySlides fade">
-                        <img src="/src/assets/images/img1.png" style="width:100%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="/src/assets/images/img2.png" style="width:100%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="/src/assets/images/img3.png" style="width:100%">
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item item3">
-                <div class="slideshow-container" id="slideshow2">
-                    <div class="mySlides fade">
-                        <img src="/src/assets/images/img4.png" style="width:100%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="/src/assets/images/img5.png" style="width:100%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="/src/assets/images/img6.png" style="width:100%">
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item item4">
-              <h2 class="et_pb_module_heading">"Why MPP?"</h2>
-              <span>Because We Manage Projects Professionlly.</span>
-              <br>
-              <p>We are value driven professionals who believe in collaboration. We work closely with our clients, listening to their ideas and goals, to ensure that our designs align perfectly with their vision.</p>
-              <button class="button-services" id="button2-services">About Us</button>
-                
-            </div>
+      <div class="container">
+        <div class="grid-item item1">
+          <h3 class="et_pb_module_heading">
+            "Precision, Performance, Perfection: Our Design Philosophy"
+          </h3>
+          <p>
+            We provide design solutions for a wide range of industries,
+            including but not limited to oil and gas, petrochemical,
+            manufacturing, chemical, water and wastewater management, and many
+            other sectors.
+          </p>
+          <button class="button-services" id="our-services">
+            Our services
+          </button>
         </div>
+        <div class="grid-item item2">
+          <div class="slideshow-container" id="slideshow1">
+            <div class="mySlides fade">
+              <img src="./src/assets/images/img1.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="./src/assets/images/img2.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="./src/assets/images/img3.png" style="width:100%">
+            </div>
+          </div>
+        </div>
+        <div class="grid-item item3">
+          <div class="slideshow-container" id="slideshow2">
+            <div class="mySlides fade">
+              <img src="./src/assets/images/img4.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="./src/assets/images/img5.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="./src/assets/images/img6.png" style="width:100%">
+            </div>
+          </div>
+        </div>
+        <div class="grid-item item4">
+          <h2 class="et_pb_module_heading">"Why MPP?"</h2>
+          <span>Because We Manage Projects Professionlly.</span>
+          <br />
+          <p>
+            We are value driven professionals who believe in collaboration. We
+            work closely with our clients, listening to their ideas and goals,
+            to ensure that our designs align perfectly with their vision.
+          </p>
+          <button class="button-services" id="button2-services">
+            About Us
+          </button>
+        </div>
+      </div>
     </main>
+    <script type="module" src="./src/pages/main.js"></script>
 
-    <script src="/src/scripts/home.js"></script>
-    <script src="/src/scripts/router.js"></script>
-    <script type="module">
+    <!-- <script src="/src/scripts/home.js"></script>
+    <script src="/src/scripts/router.js"></script> -->
+    <!-- <script type="module">
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
@@ -103,6 +114,6 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-      </script>
-</body>
+      </script> -->
+  </body>
 </html>
