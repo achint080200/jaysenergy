@@ -14,9 +14,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c3e50;
+    background-color: lightblue;
     padding: 15px 30px; /* Increased padding */
-    color: white;
+    color: black;
     position: fixed;
     top: 0;
     left: 0;
@@ -135,6 +135,11 @@ body {
     border: 0;
     border-top: 1px solid #ccc;
     margin: 20px 0;
+}
+.new-logo{
+    height: 60px;
+   
+    
 }
 
 /* Responsive Design */
